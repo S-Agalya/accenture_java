@@ -13,12 +13,11 @@ class chocolates{
          for(int box:a){
             total+=(box/3);
            // int result=(int) total-1;
-        }
-        for(int box:a){
-   if(box % n != 0){
+           if(box % n != 0){
             total+=1;
         }
         }
+        
               System.out.println(total);
         }
         
